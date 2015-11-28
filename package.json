@@ -1,9 +1,14 @@
 {
-    "name": "Project77"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.8"
-    , "jade": ">= 0.0.1"
+  "name": "Project77",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "2.5.8",
+    "jade": ">= 0.0.1",
+    "mongoose": "^4.2.7",
+    "lodash": "~3.10.1"
   }
 }
